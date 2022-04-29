@@ -1,0 +1,9 @@
+|Repository
+|----|Slip<SLip Number>
+     |----|< your folder >
+          |Other cotributors folder.
+     |Full slip number
+|----|.gitignore
+|----|folder_structure.txt
+|----|LICENSE
+|----|README.md
