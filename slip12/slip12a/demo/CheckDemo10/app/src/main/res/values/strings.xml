@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CheckDemo10</string>
+    <string name="display">Select Interested Programming Lang</string>
+    <string name="android">Android</string>
+    <string name="php">PHP</string>
+    <string name="java">Java</string>
+    <string name="cpp">CPP</string>
+    <string name="click">Display</string>
+</resources>

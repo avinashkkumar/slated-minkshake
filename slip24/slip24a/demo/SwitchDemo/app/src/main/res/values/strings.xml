@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SwitchDemo</string>
+    <string name="bt">Bluetooth</string>
+</resources>

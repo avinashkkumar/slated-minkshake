@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtDisplay"
+        android:layout_width="412dp"
+        android:layout_height="83dp"
+        android:gravity="center"
+        android:text="@string/college"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <Button
+        android:id="@+id/btRed"
+        android:layout_width="127dp"
+        android:layout_height="80dp"
+        android:text="@string/red"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btGreen"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDisplay"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <Button
+        android:id="@+id/btBlue"
+        android:layout_width="104dp"
+        android:layout_height="71dp"
+        android:text="@string/blue"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btGreen"
+        app:layout_constraintTop_toBottomOf="@+id/txtDisplay"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <Button
+        android:id="@+id/btGreen"
+        android:layout_width="127dp"
+        android:layout_height="70dp"
+        android:text="@string/green"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btBlue"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btRed"
+        app:layout_constraintTop_toBottomOf="@+id/txtDisplay"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <Button
+        android:id="@+id/btYellow"
+        android:layout_width="164dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="setBtYellow"
+        android:text="@string/yellow"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btPurple"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btRed"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <Button
+        android:id="@+id/btPurple"
+        android:layout_width="167dp"
+        android:layout_height="70dp"
+        android:text="@string/purple"
+        android:textSize="20sp"
+        android:onClick="setBtPurple"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btYellow"
+        app:layout_constraintTop_toBottomOf="@+id/btBlue"
+        app:layout_constraintVertical_bias="0.133" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

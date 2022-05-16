@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/edUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="400dp"
+                android:hint="User Name"
+                android:textColor="#1A56C6"
+                android:textColorHint="#D31212"
+                android:textSize="24dp" />
+        </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/edPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:hint="user Password"
+            android:password="true"
+            android:textColor="#AD1414"
+            android:textColorHint="#C61313"
+            android:textSize="24dp" />
+    </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_marginLeft="34dp"
+                android:layout_marginRight="12dp"
+                android:id="@+id/btSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textSize="24dp" />
+
+            <Button
+                android:id="@+id/btReset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ResetData"
+                android:text="Reset"
+                android:textSize="24dp" />
+        </TableRow>
+    </TableLayout>
+
+
